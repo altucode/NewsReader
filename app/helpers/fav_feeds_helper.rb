@@ -1,0 +1,2 @@
+module FavFeedsHelper
+end

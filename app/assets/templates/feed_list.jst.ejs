@@ -1,0 +1,9 @@
+<ul class="feedlist">
+  <% for(var i = 0; i < feeds.length; i++) { %>
+    <li class="feedlist-item">
+      <a href="#/feeds/<%= feeds.at(i).id %>">
+        <%= feeds.at(i).escape('title') %>
+      </a>
+    </li>
+  <% }; %>
+</ul>
